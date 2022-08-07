@@ -1,0 +1,16 @@
+.layout-container {
+    background: #f1f2f5;
+    min-width: 1366px;
+
+    :global {
+        .ant-layout-header {
+            padding: 0 0;
+        }
+
+        .layout-content {
+            margin: 0 20px;
+            padding: 0 0;
+            position: relative;
+        }
+    }
+}

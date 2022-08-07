@@ -1,0 +1,28 @@
+$white: #fff !default;
+$black: #000 !default;
+$blue: #2884ff !default;
+$red: #ff5c5b !default;
+$orange: #ff8700 !default;
+$green: #50d2b4 !default;
+$green-dark: #00c194 !default;
+$yellow: #ffda00 !default;
+
+$gray-33: #333 !default;
+$gray-66: #666 !default;
+$gray-99: #999 !default;
+$gray-cc: #ccc !default;
+$gray-e5: #e5e5e5 !default;
+$gray-f5: #f5f5f5 !default;
+
+$primary: $blue !default;
+$gray: $gray-e5;
+
+/* 针对表单筛选大小设置 */
+$font-size-small: 12px !default;
+$font-size-middle: 14px !default;
+$font-size-large: 16px !default;
+$line-height-small: 30px !default;
+$line-height-middle: 32px !default;
+$line-height-large: 40px !default;
+
+$text-color: rgba(0, 0, 0, 0.85);

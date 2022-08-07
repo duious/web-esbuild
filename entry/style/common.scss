@@ -1,0 +1,88 @@
+.flex-wrap {
+    display: flex;
+
+    @at-root {
+        :global {
+            .flex--top {
+                align-items: flex-start;
+            }
+
+            .flex--middle {
+                align-items: center;
+            }
+
+            .flex--bottom {
+                align-items: flex-end;
+            }
+
+            .flex--vertical {
+                flex-direction: column;
+            }
+
+            .flex--justify {
+                justify-content: space-between;
+            }
+        }
+    }
+
+    & > .flex__item {
+        flex: 1;
+    }
+}
+
+.fixed-wrap {
+    text-align: center;
+    height: 110px;
+    line-height: 110px;
+    background: #fff;
+
+    .fixed__content {
+        position: fixed;
+        height: 110px;
+        width: 100%;
+        background: #fff;
+        z-index: 99;
+    }
+
+    @at-root {
+        :global {
+            .fixed--bottom .fixed__content {
+                bottom: 0;
+                left: 0;
+            }
+
+            .fixed--top .fixed__content {
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+.app-container {
+    width: 100%;
+    height: 100%;
+}
+
+.body-content {
+    margin: 30px 40px;
+    border-radius: 2px;
+    background: #fff;
+}
+
+/* 重置滚动条 */
+.reset-scrollbar {
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+        border-radius: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+    }
+}

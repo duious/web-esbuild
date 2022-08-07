@@ -1,0 +1,22 @@
+:global {
+    div.ant-typography {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .ant-tag {
+        margin-right: 0;
+    }
+
+    .ant-form {
+        .ant-form-item-label {
+            .anticon {
+                margin-left: 0.1em;
+            }
+        }
+    }
+
+    .anticon-delete {
+        color: $red;
+    }
+}

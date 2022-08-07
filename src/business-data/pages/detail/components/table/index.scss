@@ -1,0 +1,12 @@
+.table-div {
+    display: block;
+    width: 100%;
+
+    :global {
+        .ant-table-cell {
+            .ant-btn-link {
+                padding: 4px 4px;
+            }
+        }
+    }
+}

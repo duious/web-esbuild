@@ -1,0 +1,22 @@
+// @import '@logicflow/core/dist/style/index.css';
+// @import '@logicflow/extension/lib/style/index.css';
+
+.flow-div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 800px;
+
+    :global {
+        .disable-div {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 1;
+            user-select: none;
+            left: 0;
+            top: 0;
+            cursor: not-allowed;
+        }
+    }
+}

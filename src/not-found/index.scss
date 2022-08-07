@@ -1,0 +1,43 @@
+.page-div {
+    margin: 0 auto;
+    height: 600px;
+    background-color: #fff;
+    :global {
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            img {
+                width: 182px;
+                height: 116px;
+            }
+            .big-title {
+                margin-top: 23px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #333;
+                line-height: 22px;
+            }
+            .sub-title {
+                margin-top: 16px;
+                font-size: 13px;
+                font-weight: 400;
+                color: #999999;
+                line-height: 18px;
+            }
+            .link-title {
+                margin-top: 32px;
+                font-size: 13px;
+                font-weight: 400;
+                color: #333;
+                line-height: 18px;
+                a {
+                    margin-left: 3px;
+                    color: #0ab76d;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,228 @@
+body {
+    /* font: 14px/1.5 arial, helvetica, "PingFangSC-Regular", "Microsoft Yahei", "微软雅黑"; */
+    font-family: Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+    color: $gray-33;
+    background: #f1f2f5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100% !important;
+}
+
+::selection {
+    color: #ffffff;
+    background: $blue;
+}
+
+body,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:global {
+    .del {
+        color: $red;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.margin-t-10 {
+    margin-top: 10px;
+}
+
+.margin-t-20 {
+    margin-top: 20px;
+}
+
+.margin-t-30 {
+    margin-top: 30px;
+}
+
+.margin-b-30 {
+    margin-bottom: 30px;
+}
+
+.margin-b-20 {
+    margin-bottom: 30px;
+}
+
+.margin-r-10 {
+    margin-right: 10px;
+}
+
+.margin-r-12 {
+    margin-right: 12px;
+}
+
+.margin-r-15 {
+    margin-right: 15px;
+}
+
+.margin-r-16 {
+    margin-right: 16px;
+}
+
+.margin-r-20 {
+    margin-right: 20px;
+}
+
+.no-scroll {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-wrap {
+    white-space: normal;
+    word-break: break-all;
+}
+
+.pointer-hover {
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.transition-all {
+    transition: all .4s;
+}
+
+.color-red {
+    color: $red !important;
+}
+
+.color-orange {
+    color: $orange !important;
+}
+
+.color-yellow {
+    color: $yellow !important;
+}
+
+.color-blue {
+    color: $blue !important;
+}
+
+.color-green {
+    color: $green !important;
+}
+
+.color-green-dark {
+    color: $green-dark !important;
+}
+
+.color-white {
+    color: $white !important;
+}
+
+.color-black {
+    color: $black !important;
+}
+
+.color-gray {
+    color: $gray !important;
+}
+
+.color-gray-33 {
+    color: $gray-33 !important;
+}
+
+.color-gray-66 {
+    color: $gray-66 !important;
+}
+
+.color-gray-99 {
+    color: $gray-99 !important;
+}
+
+.color-gray-cc {
+    color: $gray-cc !important;
+}
+
+.color-gray-e5 {
+    color: $gray-e5 !important;
+}
+
+.color-gray-f5 {
+    color: $gray-f5 !important;
+}
+
+.font-pf-l {
+    font-family: "PingfangSC-Light","Pingfang SC Light";
+}
+
+.font-pf-r {
+    font-family: "PingfangSC-Regular","Pingfang SC Regular";
+    font-weight: normal;
+}
+
+.font-pf-m {
+    font-family: "PingfangSC-Medium","Pingfang SC Medium";
+}
+
+.font-pf-s {
+    font-family: "PingfangSC-Semibold","Pingfang SC Semibold";
+}

@@ -1,0 +1,75 @@
+.task-page {
+    .top-select-container {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .select-box {
+        label {
+            span {
+                padding-right: 8px;
+            }
+        }
+
+        & + .select-box {
+            margin-top: 10px;
+        }
+    }
+
+    .op-box {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+
+    .table-op-box {
+        padding: 20px 0;
+    }
+
+    button + button {
+        margin-left: 20px;
+    }
+
+    .link {
+        a {
+            display: inline-block;
+            margin: 0 10px;
+            transition: 0.2s all;
+
+            &:hover {
+                color: #096dd9;
+            }
+        }
+    }
+}
+
+:global {
+    .ant-popover-inner-content {
+        .table-item {
+            .title {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .result-drawer {
+        .ant-drawer-body {
+            height: calc(100% - 48px);
+        }
+
+        &.hide {
+            .ant-drawer-body {
+                overflow: hidden;
+            }
+        }
+
+        .result-input-large {
+            width: 300px !important;
+        }
+    }
+
+    .result-select-tree {
+        height: 300px;
+        overflow: auto;
+    }
+}
